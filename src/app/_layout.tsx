@@ -1,6 +1,6 @@
 /* eslint-disable import/no-unresolved */
-import "./global.css";
 
+import "@/global.css";
 import { ClerkProvider } from "@clerk/expo";
 import { tokenCache } from "@clerk/expo/token-cache";
 import { Stack } from "expo-router";
