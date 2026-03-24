@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.eas.roost.prod02.grocify",
+      "bundleIdentifier": "com.local.grocify",
       "appleTeamId": "85N667CY29"
     },
     "android": {
@@ -22,7 +22,7 @@
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.eas.roost.prod02.grocify"
+      "package": "com.local.grocify"
     },
     "web": {
       "output": "static",
@@ -44,7 +44,8 @@
         }
       ],
       "@clerk/expo",
-      "expo-secure-store"
+      "expo-secure-store",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
